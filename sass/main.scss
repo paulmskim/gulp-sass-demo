@@ -1,0 +1,16 @@
+@import 'variables.scss';
+@import 'abstractions.scss';
+
+.container {
+  display: flex;
+  max-width: $maxWidth;
+}
+
+.block {
+  flex: 1 1 auto;
+  @extend %block-style;
+}
+
+.block-1, .block-4 {
+  @include border-radius(10px);
+}

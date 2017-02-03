@@ -1,0 +1,17 @@
+.block {
+  height: 100px;
+  width: 100px;
+  border: 2px solid orange;
+  background: blue; }
+  .block:hover {
+    background: purple; }
+
+.container {
+  display: flex;
+  max-width: 640px; }
+
+.block {
+  flex: 1 1 auto; }
+
+.block-1, .block-4 {
+  border-radius: 10px; }

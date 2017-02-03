@@ -1,0 +1,13 @@
+%block-style {
+  height: 100px;
+  width: 100px;
+  border: 2px solid orange;
+  background: $blockColor;
+  &:hover {
+    background: $hoverBlockColor;
+  }
+}
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
