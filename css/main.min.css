@@ -1,0 +1,1 @@
+.block{height:100px;width:100px;border:2px solid orange;background:#00f;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto}.block:hover{background:purple}.container{display:-webkit-box;display:-ms-flexbox;display:flex;max-width:640px}.block-1,.block-4{border-radius:10px}
