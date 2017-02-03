@@ -18,6 +18,9 @@
   "homepage": "https://github.com/paulmskim/gulp-sass-demo#readme",
   "devDependencies": {
     "gulp": "3.9.1",
-    "gulp-sass": "3.1.0"
+    "gulp-sass": "3.1.0",
+    "node-sass-globbing": "0.0.23",
+    "compass-mixins": "0.12.10",
+    "breakpoint-sass": "2.7.1"
   }
 }
